@@ -71,7 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const subject = encodeURIComponent(`Portfolio Contact from ${name}`);
             const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-            const mailtoLink = `mailto:ershiv12ank@gmail.com?subject=${subject}&body=${body}`;
+            const mailtoLink = `mailto:shivamjhafbg9155@gmail.com?subject=${subject}&body=${body}`;
+
 
             window.location.href = mailtoLink;
 
