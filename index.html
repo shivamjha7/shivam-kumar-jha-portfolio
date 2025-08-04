@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo pulse-animation">Shivam Kumar Jha</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects & Experience</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+               <!--<li><a href="#gallery">Gallery</a></li> -->
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="fade-in-up">Hi, I'm <span class="name-highlight">Shivam Kumar Jha</span></h1>
+                <p class="fade-in-up delay-1">A <span class="title-highlight">Software  Engineer</span></p>
+                <div class="hero-buttons fade-in-up delay-2">
+                    <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                    <a href="#projects" class="btn secondary-btn">View My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="shivamPic.jpg" alt="Your Name">
+                </div>
+                <div class="about-details">
+                    <p>Hello! I'm Shivam Kumar Jha, a passionate and dedicated Computer Science Engineering graduate (Batch 2025) with strong interests in software development and software testing. I thrive on building real-world solutions using robust technologies and enjoy exploring every layer of application development — from backend logic to frontend design.
+
+I have good knowledge of Java, JDBC, Spring Boot, Hibernate, Spring MVC, JSP, Servlet, SQL, and Python. I'm also skilled in web technologies like HTML, CSS, and JavaScript, and familiar with tools like GitHub, Postman, Eclipse, IntelliJ IDEA, and VS Code.
+
+As a fresher, I'm eager to contribute to dynamic teams, grow with challenging projects, and continuously expand my skills. Whether it's developing scalable web applications or ensuring software quality through testing, my goal is to deliver impactful, efficient, and user-friendly digital experiences.</p>
+                    <ul>
+                        <li><strong>Name:</strong> Shivam Kumar Jha</li>
+                        <li><strong>Date of Birth:</strong> July 23, 2004</li>
+                        <li><strong>Location:</strong> Bangalore, India</li>
+                        <li><strong>Email:</strong> shivamjhafbg9155@gmail.com</li>
+                        <li><strong>Languages:</strong> English, Hindi.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+<section id="tech-stack" class="tech-stack-section reveal">
+    <h2 class="section-title">My Tech Stack</h2>
+    <div class="tech-categories-grid">
+
+        <!-- Frontend -->
+        <div class="tech-category-card">
+            <h3>Frontend</h3>
+            <ul>
+                <li><i class="fab fa-html5"></i> HTML5</li>
+                <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                <li><i class="fab fa-js"></i> JavaScript</li>
+            </ul>
+        </div>
+
+        <!-- Backend -->
+        <div class="tech-category-card">
+            <h3>Backend</h3>
+            <ul>
+                <li><i class="fab fa-java"></i> Java</li>
+                <li><i class="fas fa-code"></i> Spring Boot</li>
+                <li><i class="fas fa-database"></i> Hibernate / JPA</li>
+                <li><i class="fab fa-python"></i> Python (Basics)</li>
+            </ul>
+        </div>
+
+        <!-- Databases -->
+        <div class="tech-category-card">
+            <h3>Databases</h3>
+            <ul>
+                <li><i class="fas fa-database"></i> MySQL</li>
+                <li><i class="fas fa-database"></i> SQL (Core)</li>
+            </ul>
+        </div>
+
+        <!-- Tools & IDEs -->
+        <div class="tech-category-card">
+            <h3>Tools & IDEs</h3>
+            <ul>
+                <li><i class="fas fa-code"></i> IntelliJ IDEA</li>
+                <li><i class="fas fa-code"></i> Eclipse</li>
+                <li><i class="fas fa-code"></i> VS Code</li>
+                <li><i class="fas fa-envelope-open-text"></i> Postman</li>
+            </ul>
+        </div>
+
+        <!-- Testing -->
+        <div class="tech-category-card">
+            <h3>Testing</h3>
+            <ul>
+                <li><i class="fas fa-vial"></i> Manual Testing</li>
+                <li><i class="fas fa-vial"></i> API Testing (Postman)</li>
+                <li><i class="fas fa-tools"></i> Basic Automation Concepts</li>
+            </ul>
+        </div>
+
+        <!-- Version Control -->
+        <div class="tech-category-card">
+            <h3>Version Control</h3>
+            <ul>
+                <li><i class="fab fa-git-alt"></i> Git</li>
+                <li><i class="fab fa-github"></i> GitHub</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!--project-->  
+<section id="projects" class="projects-section reveal">
+  <h2 class="section-title">Projects & Experience</h2>
+  <div class="projects-grid">
+
+    <!-- Row 1 -->
+    <div class="project-row">
+      <div class="project-card">
+        <h3>Banking Application</h3>
+        <p class="tech-stack"><strong>Tech Stack:</strong> Java, Spring Boot, Hibernate, Spring Data JPA, MySQL, REST API, Postman</p>
+        <p>This is a backend-focused Banking Application developed using Java and Spring Boot, designed to perform core banking functionalities through a set of well-structured RESTful APIs. The application accepts and returns data in JSON format and is tested using Postman.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li><strong>Create Account:</strong> Users can create a new bank account with initial details.</li>
+          <li><strong>Retrieve Account:</strong> Fetch account details using account number or user ID.</li>
+          <li><strong>Update Account:</strong> Modify existing account details such as name or contact info.</li>
+          <li><strong>Delete Account:</strong> Permanently delete an account from the database.</li>
+          <li><strong>Deposit & Withdraw:</strong> Perform deposit and withdrawal operations with validations.</li>
+          <li><strong>Database Integration:</strong> Hibernate and JPA used for mapping Java objects to a MySQL relational database.</li>
+          <li><strong>Error Handling:</strong> Custom exception handling and proper HTTP status codes for all API responses.</li>
+        </ul>
+        <p>The project follows a layered architecture (Controller → Service → Repository), demonstrating my understanding of REST principles, backend development, and data management. This application serves as a strong foundation for building secure, scalable, and testable backend systems.</p>
+        <a href="https://github.com/shivamjha7/BankingProject" target="_blank" class="project-link">
+          View Project <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="project-row">
+      <div class="project-card">
+        <h3>Zomato Replica (Tomato)</h3>
+        <p class="tech-stack"><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript</p>
+        <p>Tomato is a frontend clone of the popular food delivery platform Zomato. This project focuses on replicating Zomato’s user interface, providing a visually rich and responsive design. It simulates features like restaurant listings, search bar, and food categories, showcasing the real-world structure of a food ordering app.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li><strong>Modern UI:</strong> Visually appealing layout inspired by Zomato's official website.</li>
+          <li><strong>Search Simulation:</strong> Food and restaurant search bar functionality with JavaScript.</li>
+          <li><strong>Responsive Design:</strong> Mobile and tablet-friendly layout using Flexbox and media queries.</li>
+          <li><strong>Clean Code Structure:</strong> Modular HTML and CSS structure for maintainability.</li>
+        </ul>
+        <p>This project helped reinforce my frontend development skills and ability to convert real-world platforms into static responsive websites using core web technologies.</p>
+        <a href="https://zomato-replica-shivamjha.vercel.app" target="_blank" class="project-link">
+  View Project <i class="fas fa-external-link-alt"></i>
+</a>
+
+      </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="project-row">
+      <div class="project-card">
+        <h3>Amazon Clone</h3>
+        <p class="tech-stack"><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript</p>
+        <p>This project is a responsive frontend replica of Amazon’s eCommerce platform. The clone includes key UI components such as the navbar, hero section, product cards, and footer. It simulates the structure and design of Amazon’s home page, giving a feel of a real eCommerce user experience.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li><strong>Navigation Bar:</strong> Sticky header with logo, search input, and sign-in area.</li>
+          <li><strong>Product Listings:</strong> Grid layout showing multiple product sections with hover effects.</li>
+          <li><strong>Responsive Layout:</strong> Fully mobile-optimized using CSS media queries.</li>
+          <li><strong>Reusable Components:</strong> Product card components styled for consistency and scalability.</li>
+        </ul>
+        <p>Through this clone, I practiced responsive design principles and sharpened my skills in UI structuring, styling, and layout techniques that reflect real eCommerce standards.</p>
+        <a href="https://shivamjha7-ri54718ij-shivam-kumar-jhas-projects-4da07c3a.vercel.app" target="_blank" class="project-link">
+          View Project <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+     
+
+
+<!-- achievents-->
+ <section id="achievements" class="achievements-section reveal">
+  <h2 class="section-title">Achievements</h2>
+  <div class="achievements-grid">
+
+    <div class="achievement-card">
+      <div class="card-icon"><i class="fas fa-certificate"></i></div>
+      <h3>Java Programming Certificate - IIT Kharagpur</h3>
+      <p class="achievement-date">2023</p>
+      <p>Successfully completed the Java Programming certification course by IIT Kharagpur, validating strong skills in object-oriented programming, problem-solving, and backend fundamentals.</p>
+    </div>
+
+    <div class="achievement-card">
+      <div class="card-icon"><i class="fas fa-cubes"></i></div>
+      <h3>Blockchain Builder Certificate - FITT, IIT Delhi</h3>
+      <p class="achievement-date">2024</p>
+      <p>Earned a Blockchain Certificate from FITT-IIT Delhi, showcasing knowledge of decentralized applications, smart contracts, and blockchain ecosystem fundamentals.</p>
+    </div>
+
+    <div class="achievement-card">
+      <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+      <h3>Java Developer Internship - Bangalore</h3>
+      <p class="achievement-date">2024</p>
+      <p>Completed a hands-on internship as a Java Developer in Bangalore, working with technologies like Spring Boot, REST APIs, and MySQL in a real-world development environment.</p>
+    </div>
+
+    <div class="achievement-card">
+      <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+      <h3>Project Work & Open Source Contributions</h3>
+      <p class="achievement-date">2023 - 2025</p>
+      <p>Contributed to multiple open-source and personal projects on GitHub, including a banking system backend, eCommerce frontend clone, and food delivery UI replica.</p>
+    </div>
+
+  </div>
+</section>
+
+        <!--hobbies-->
+<section id="hobbies" class="hobbies-section reveal">
+  <h2 class="section-title">Hobbies</h2>
+  <div class="hobbies-carousel">
+
+    <div class="hobby-card">
+      <i class="fas fa-code"></i>
+      <h3>Coding Challenges</h3>
+      <p>Enjoy solving algorithmic puzzles and practicing on platforms like LeetCode and HackerRank to sharpen problem-solving skills.</p>
+    </div>
+
+    <div class="hobby-card">
+      <i class="fas fa-book-open"></i>
+      <h3>Reading</h3>
+      <p>Passionate about reading sci-fi, personal growth, and technology books to stay inspired and informed.</p>
+    </div>
+
+    <div class="hobby-card">
+      <i class="fas fa-baseball-ball"></i>
+      <h3>Cricket</h3>
+      <p>Love playing and watching cricket. It teaches teamwork, strategy, and patience—skills valuable both on and off the field.</p>
+    </div>
+
+    <div class="hobby-card">
+      <i class="fas fa-headphones"></i>
+      <h3>Listening to Podcasts</h3>
+      <p>Enjoy tech and motivation-related podcasts to stay updated on industry trends and personal development tips.</p>
+    </div>
+
+    <div class="hobby-card">
+      <i class="fas fa-camera"></i>
+      <h3>Photography</h3>
+      <p>Capturing unique perspectives and exploring creative storytelling through the lens.</p>
+    </div>
+
+    <div class="hobby-card">
+      <i class="fas fa-hiking"></i>
+      <h3>Exploring New Places</h3>
+      <p>Enjoy short travel and exploration which refreshes the mind and brings new experiences and ideas.</p>
+    </div>
+
+  </div>
+</section>
+
+        <section id="contact" class="contact-section reveal">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="send-email-btn">Send Email <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Shivam Kumar Jha. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/shivam-jha-721a7126b" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/shivamjha7" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:shivamjhafbg9155@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
